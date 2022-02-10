@@ -1,0 +1,7 @@
+verilog work "vedic_16x16.v"
+verilog work "PIPO_64.v"
+verilog work "PIPO_32.v"
+verilog work "PIPO_16.v"
+verilog work "EQZ.v"
+verilog work "counter.v"
+verilog work "datapath.v"

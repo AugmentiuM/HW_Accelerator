@@ -1,0 +1,79 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/ARIJIT/OneDrive/Documents/IIEST MTECH/1.Sem3/Xilinx/FinalMAC/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/ARIJIT/OneDrive/Documents/IIEST MTECH/1.Sem3/Xilinx/FinalMAC/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: datapath.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\ARIJIT\OneDrive\Documents\IIEST MTECH\1.Sem3\Xilinx\FinalMAC\vedic_16x16.v" into library work
+Parsing module <vedic_16x16>.
+Parsing module <vedic_8X8>.
+Parsing module <vedic_4_x_4>.
+Parsing module <vedic_2_x_2>.
+Parsing module <ha>.
+Parsing module <CLA_24>.
+Parsing module <CLA_12>.
+Parsing module <CLA_6>.
+Parsing module <CLA_64>.
+Parsing module <CLA_16>.
+Parsing module <CLA_8>.
+Parsing module <CLA_4>.
+Analyzing Verilog file "C:\Users\ARIJIT\OneDrive\Documents\IIEST MTECH\1.Sem3\Xilinx\FinalMAC\PIPO_64.v" into library work
+Parsing module <PIPO_64>.
+Analyzing Verilog file "C:\Users\ARIJIT\OneDrive\Documents\IIEST MTECH\1.Sem3\Xilinx\FinalMAC\PIPO_32.v" into library work
+Parsing module <PIPO_32>.
+Analyzing Verilog file "C:\Users\ARIJIT\OneDrive\Documents\IIEST MTECH\1.Sem3\Xilinx\FinalMAC\PIPO_16.v" into library work
+Parsing module <PIPO_16>.
+Analyzing Verilog file "C:\Users\ARIJIT\OneDrive\Documents\IIEST MTECH\1.Sem3\Xilinx\FinalMAC\EQZ.v" into library work
+Parsing module <EQZ>.
+Analyzing Verilog file "C:\Users\ARIJIT\OneDrive\Documents\IIEST MTECH\1.Sem3\Xilinx\FinalMAC\counter.v" into library work
+Parsing module <counter>.
+Analyzing Verilog file "C:\Users\ARIJIT\OneDrive\Documents\IIEST MTECH\1.Sem3\Xilinx\FinalMAC\datapath.v" into library work
+Parsing module <datapath>.
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.55 secs
+ 
+--> 
+
+Total memory usage is 4495904 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,58 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/ARIJIT/OneDrive/Documents/IIEST MTECH/1.Sem3/Xilinx/FinalMAC_1.1/tb_isim_beh.exe -prj C:/Users/ARIJIT/OneDrive/Documents/IIEST MTECH/1.Sem3/Xilinx/FinalMAC_1.1/tb_beh.prj work.tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/ARIJIT/OneDrive/Documents/IIEST MTECH/1.Sem3/Xilinx/FinalMAC_1.1/vedic_16x16.v" into library work
+Analyzing Verilog file "C:/Users/ARIJIT/OneDrive/Documents/IIEST MTECH/1.Sem3/Xilinx/FinalMAC_1.1/PIPO_64.v" into library work
+Analyzing Verilog file "C:/Users/ARIJIT/OneDrive/Documents/IIEST MTECH/1.Sem3/Xilinx/FinalMAC_1.1/PIPO_32.v" into library work
+Analyzing Verilog file "C:/Users/ARIJIT/OneDrive/Documents/IIEST MTECH/1.Sem3/Xilinx/FinalMAC_1.1/PIPO_16.v" into library work
+Analyzing Verilog file "C:/Users/ARIJIT/OneDrive/Documents/IIEST MTECH/1.Sem3/Xilinx/FinalMAC_1.1/EQZ.v" into library work
+Analyzing Verilog file "C:/Users/ARIJIT/OneDrive/Documents/IIEST MTECH/1.Sem3/Xilinx/FinalMAC_1.1/counter.v" into library work
+Analyzing Verilog file "C:/Users/ARIJIT/OneDrive/Documents/IIEST MTECH/1.Sem3/Xilinx/FinalMAC_1.1/datapath.v" into library work
+Analyzing Verilog file "C:/Users/ARIJIT/OneDrive/Documents/IIEST MTECH/1.Sem3/Xilinx/FinalMAC_1.1/controlpath.v" into library work
+Analyzing Verilog file "C:/Users/ARIJIT/OneDrive/Documents/IIEST MTECH/1.Sem3/Xilinx/FinalMAC_1.1/MAC_16.v" into library work
+Analyzing Verilog file "C:/Users/ARIJIT/OneDrive/Documents/IIEST MTECH/1.Sem3/Xilinx/FinalMAC_1.1/tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:/Users/ARIJIT/OneDrive/Documents/IIEST MTECH/1.Sem3/Xilinx/FinalMAC_1.1/datapath.v" Line 56: Port cout is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/ARIJIT/OneDrive/Documents/IIEST MTECH/1.Sem3/Xilinx/FinalMAC_1.1/vedic_16x16.v" Line 47: Port cout is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/ARIJIT/OneDrive/Documents/IIEST MTECH/1.Sem3/Xilinx/FinalMAC_1.1/vedic_16x16.v" Line 50: Port cout is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/ARIJIT/OneDrive/Documents/IIEST MTECH/1.Sem3/Xilinx/FinalMAC_1.1/vedic_16x16.v" Line 54: Port cout is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/ARIJIT/OneDrive/Documents/IIEST MTECH/1.Sem3/Xilinx/FinalMAC_1.1/vedic_16x16.v" Line 88: Port cout is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/ARIJIT/OneDrive/Documents/IIEST MTECH/1.Sem3/Xilinx/FinalMAC_1.1/vedic_16x16.v" Line 91: Port cout is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/ARIJIT/OneDrive/Documents/IIEST MTECH/1.Sem3/Xilinx/FinalMAC_1.1/vedic_16x16.v" Line 94: Port cout is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/ARIJIT/OneDrive/Documents/IIEST MTECH/1.Sem3/Xilinx/FinalMAC_1.1/vedic_16x16.v" Line 129: Port cout is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/ARIJIT/OneDrive/Documents/IIEST MTECH/1.Sem3/Xilinx/FinalMAC_1.1/vedic_16x16.v" Line 132: Port cout is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/ARIJIT/OneDrive/Documents/IIEST MTECH/1.Sem3/Xilinx/FinalMAC_1.1/vedic_16x16.v" Line 135: Port cout is not connected to this instance
+Completed static elaboration
+Compiling module PIPO_16
+Compiling module ha
+Compiling module vedic_2_x_2
+Compiling module CLA_4
+Compiling module CLA_6
+Compiling module vedic_4_x_4
+Compiling module CLA_8
+Compiling module CLA_12
+Compiling module vedic_8X8
+Compiling module CLA_16
+Compiling module CLA_24
+Compiling module vedic_16x16
+Compiling module PIPO_32
+Compiling module CLA_64
+Compiling module PIPO_64
+Compiling module counter
+Compiling module EQZ
+Compiling module datapath
+Compiling module controlpath_1
+Compiling module controlpath_2
+Compiling module controlpath
+Compiling module MAC_16
+Compiling module tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 24 Verilog Units
+Built simulation executable C:/Users/ARIJIT/OneDrive/Documents/IIEST MTECH/1.Sem3/Xilinx/FinalMAC_1.1/tb_isim_beh.exe
+Fuse Memory Usage: 29128 KB
+Fuse CPU Usage: 874 ms

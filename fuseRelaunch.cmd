@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/ARIJIT/OneDrive/Documents/IIEST MTECH/1.Sem3/Xilinx/FinalMAC_1.1/tb_isim_beh.exe" -prj "C:/Users/ARIJIT/OneDrive/Documents/IIEST MTECH/1.Sem3/Xilinx/FinalMAC_1.1/tb_beh.prj" "work.tb" "work.glbl" 
